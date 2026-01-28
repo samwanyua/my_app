@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
             padding: const EdgeInsets.all(12),
             height: 50,
             width: 170,
-            color: Colors.orangeAccent,
+            color: Colors.greenAccent,
           ),
         ),
       )
