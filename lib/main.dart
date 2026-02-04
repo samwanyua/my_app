@@ -46,27 +46,28 @@ class MyApp extends StatelessWidget {
         //   ),
         // ),
         body: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
           // 1st box
-          Container(
-            height: 200,
-            width: 200,
-            color: Colors.redAccent,
-            ),
+          Expanded(
+            child: Container(
+              color: Colors.redAccent,
+              ),
+          ),
 
              // 2nd box
-          Container(
-            height: 200,
-            width: 200,
-            color: const Color.fromARGB(255, 167, 43, 43),
-            ),
+          Expanded(
+            child: Container(
+              color: const Color.fromARGB(255, 167, 43, 43),
+              ),
+          ),
 
            // 3rd box
-          Container(
-            height: 200,
-            width: 200,
-            color: const Color.fromARGB(255, 136, 32, 32),
-            )
+          Expanded(
+            child: Container(
+              color: const Color.fromARGB(255, 136, 32, 32),
+              ),
+          )
 
 
         ],),
