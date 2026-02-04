@@ -30,15 +30,15 @@ class MyApp extends StatelessWidget {
         //     height: 300,
         //     width: 300,
         //     decoration: BoxDecoration(
-        //       color: Colors.amberAccent,
-        //       borderRadius: BorderRadius.circular(20),
+        //       color: Colors.greenAccent,
+        //       borderRadius: BorderRadius.circular(24),
 
         //     ),
-        //     padding: EdgeInsets.all(90),
-        //     child: Text("Sauti Care",
+        //     padding: EdgeInsets.all(100),
+        //     child: Text("Welcome to SautiCare",
         //     style: TextStyle(
-        //       color: Colors.black87,
-        //       fontSize: 34,
+        //       color: Colors.black,
+        //       fontSize: 38,
         //       fontWeight: FontWeight.bold,
         //     ),
         //     ),
@@ -51,21 +51,22 @@ class MyApp extends StatelessWidget {
           // 1st box
           Expanded(
             child: Container(
-              color: Colors.redAccent,
+              color: const Color.fromARGB(255, 0, 0, 0),
               ),
           ),
 
              // 2nd box
           Expanded(
+            flex: 2,
             child: Container(
-              color: const Color.fromARGB(255, 167, 43, 43),
+              color: const Color.fromARGB(255, 192, 189, 189),
               ),
           ),
 
            // 3rd box
           Expanded(
             child: Container(
-              color: const Color.fromARGB(255, 136, 32, 32),
+              color: const Color.fromARGB(255, 17, 16, 16),
               ),
           )
 
