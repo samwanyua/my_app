@@ -23,7 +23,12 @@ class MyApp extends StatelessWidget {
 
             ),
             padding: EdgeInsets.all(90),
-            child: Text("Sauti Care"),
+            child: Text("Sauti Care",
+            style: TextStyle(
+              color: Colors.black87,
+              fontSize: 34,
+              fontWeight: FontWeight.bold,
+            ),),
             
           ),
         ),
