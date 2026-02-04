@@ -13,6 +13,18 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.greenAccent,
+        appBar: AppBar(
+          title: Text("SautiCare",
+          style: TextStyle(
+            color: Colors.white,
+            fontWeight: FontWeight.bold
+
+          ),
+          ),
+          // leading: Icon(Icons.menu),
+
+          backgroundColor: Colors.black,
+        ),
         body: Center(
           child: Container(
             height: 300,
@@ -28,7 +40,8 @@ class MyApp extends StatelessWidget {
               color: Colors.black87,
               fontSize: 34,
               fontWeight: FontWeight.bold,
-            ),),
+            ),
+            ),
             
           ),
         ),
