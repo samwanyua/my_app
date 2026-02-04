@@ -6,7 +6,16 @@ void main() {
    * List <int> numbers = [3,4,5,6,7,8];
    * 
    * Set - unordered collection of unique elements
+   * 
    * Set<String> emails = {"antonie@dal.co.ke", "ter@dar.co.ke"};
+   * 
+   * Map -> Key-value pairs
+   * 
+   * Map users = {
+   *  'name': "Antique Brown",
+   *  'email': "antique.b@dal.co.ke",
+   *   'admNumber': 45656
+   * }
    * 
    */
   runApp(MyApp());
