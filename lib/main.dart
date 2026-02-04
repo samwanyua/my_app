@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
             
         //   ),
         // ),
-        body: Column(
+        body: Column( // for scrollable list use ListView
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
           // 1st box
