@@ -1,6 +1,14 @@
 import 'package:flutter/material.dart';
 
 void main() {
+  /**
+   * List -> ordered collection of elemeents, can have duplicates
+   * List <int> numbers = [3,4,5,6,7,8];
+   * 
+   * Set - unordered collection of unique elements
+   * Set<String> emails = {"antonie@dal.co.ke", "ter@dar.co.ke"};
+   * 
+   */
   runApp(MyApp());
 }
 
@@ -9,24 +17,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.greenAccent,
-          title: const Text('Welcome to Sauticare'),
-        
-        ),
-        body: Center(
-          child: Container(
-            child: Center(child: const Text('Voice technology')),
-            margin: const EdgeInsets.all(100),
-            padding: const EdgeInsets.all(12),
-            height: 50,
-            width: 170,
-            color: Colors.greenAccent,
-          ),
-        ),
-      )
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(),
     );
   }
 }
