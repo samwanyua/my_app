@@ -65,7 +65,7 @@ class MyApp extends StatelessWidget {
 
            // 3rd box
           Expanded(
-        jj    child: Container(
+            child: Container(
               color: const Color.fromARGB(255, 17, 16, 16),
               ),
           )
